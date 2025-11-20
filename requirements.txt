@@ -1,7 +1,7 @@
 streamlit==1.38.0
 
 pandas==1.5.3
-numpy==1.23.5
+numpy
 scikit-learn==1.6.1
 joblib==1.4.2
 
@@ -13,3 +13,4 @@ shap==0.42.1
 reportlab==3.5.59
 
 email-validator==2.1.0
+
