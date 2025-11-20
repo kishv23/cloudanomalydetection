@@ -1,12 +1,13 @@
-streamlit==1.32.2
+streamlit==1.38.0
+
 pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.1
+numpy==2.1.1
+scikit-learn==1.6.1
 joblib==1.4.2
 
-matplotlib==3.9.0
+matplotlib==3.9.2
 seaborn==0.13.2
-plotly==5.23.0
+plotly==5.22.0
 
-# SHAP compatible version for Py310 + numpy 1.26
-shap==0.44.1
+# shap does NOT support Python 3.13
+# reportlab fails to compile on 3.13
