@@ -1,13 +1,16 @@
 streamlit==1.38.0
 
-pandas==2.2.2
-numpy==2.1.1
-scikit-learn==1.6.1
-joblib==1.4.2
+pandas==1.5.3
+numpy==1.26.4
+scikit-learn==1.3.2
+joblib==1.3.2
 
-matplotlib==3.9.2
-seaborn==0.13.2
-plotly==5.22.0
+matplotlib==3.8.2
+seaborn==0.13.1
+plotly==5.18.0
 
-# shap does NOT support Python 3.13
-# reportlab fails to compile on 3.13
+shap==0.42.1
+reportlab==3.6.12
+
+smtplib-client==0.1.1
+email-validator==2.1.0
