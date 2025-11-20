@@ -1,13 +1,12 @@
-streamlit==1.38.0
+streamlit==1.32.2
 pandas==2.2.2
-numpy==2.1.1
+numpy==1.26.4
 scikit-learn==1.5.1
 joblib==1.4.2
 
 matplotlib==3.9.0
 seaborn==0.13.2
 plotly==5.23.0
-shap==0.45.1
 
-# REMOVE reportlab completely → it cannot build on Python 3.13
-# If you need PDF generation we can add a different library.
+# SHAP compatible version for Py310 + numpy 1.26
+shap==0.44.1
